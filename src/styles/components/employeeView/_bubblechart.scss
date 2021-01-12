@@ -1,0 +1,45 @@
+.bubble {
+  margin-top: 5% auto;
+  tspan {
+    font-weight: bold;
+  }
+  circle {
+    cursor: pointer;
+  }
+  text {
+    cursor: pointer;
+  }
+  
+  .hidden{
+    display: none;
+  }
+  .biggerTxt {
+    font-size: 1.9em;
+
+    &.hidden {
+      font-size: 1.2em;
+    }
+  }
+}
+
+
+.bubbleLegend{
+  width: 100px;
+  margin: 6% 0;
+  padding: 0.5em 2em;
+  position: absolute;
+
+  .btn {
+    margin: 8%;
+    color: white;
+    font-weight: bold;
+  }
+
+  .underline {
+    text-decoration: underline;
+
+    &.hidden {
+      text-decoration: none;
+    }
+  }
+}

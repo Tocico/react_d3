@@ -1,0 +1,12 @@
+.label {
+  font-size: 16px;
+  color: $color-light-gray;
+  font-weight: bold;
+  text-transform: uppercase;
+  &.large {
+    font-size: 26px;
+  }
+  &.color-dark {
+    color: $color-black;
+  }
+}

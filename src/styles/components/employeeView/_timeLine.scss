@@ -1,0 +1,36 @@
+.timeLine{
+    transition: 0.3s all cubic-bezier(1, 0, 0, 1);
+    position: absolute;
+    bottom: 0;
+    &.hidden {
+      visibility: hidden;
+      transform: translateY(-5%);
+      opacity: 0;
+    }
+}
+
+.axisMonths{
+  opacity: 0.1;
+}
+
+.domain{
+  opacity:0;
+}
+
+.tick{
+  font-weight: 600;
+  opacity: 0.5;
+  font-size: 1.1em;
+}
+.yearAxis{
+  opacity: 0.5;
+}
+.timelineButton{
+  transition: 0.3s all cubic-bezier(1, 0, 0, 1);
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  &.hidden{
+    bottom:20px;
+  }
+}

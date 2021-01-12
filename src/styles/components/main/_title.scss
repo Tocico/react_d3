@@ -1,0 +1,12 @@
+.title {
+  font-size: 2em;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  color: $color-black;
+  top: 3%;
+  &.hide {
+    opacity: 0.2;
+  }
+}

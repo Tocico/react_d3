@@ -1,0 +1,22 @@
+.logo {
+  i {
+    color: $color-white;
+    font-size: 62px;
+  }
+  h1 {
+    margin: 0px;
+    color: $color-white;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  p {
+    margin: 0px;
+    color: $color-light-gray;
+  }
+  &.large {
+    h1 {
+      font-size: 48px;
+    }
+  }
+}

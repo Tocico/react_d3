@@ -1,0 +1,18 @@
+a,
+.btn {
+  &:hover {
+    cursor: pointer;
+  }
+}
+.btn.btn-primary {
+  font-size: 12px;
+  background-color: $color-black;
+  border-color: $color-black;
+}
+
+a.sidebar-button.dark {
+  font-size: 12px;
+  color: $color-black !important;
+  font-weight: bold;
+  text-decoration: none;
+}

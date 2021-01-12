@@ -1,0 +1,29 @@
+.mobile-message {
+  display: none;
+}
+
+/* Mobile */
+@media only screen and (max-width: 1180px) {
+  .circle-visualization,
+  .timeline-visualization {
+    display: none;
+  }
+  .mobile-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: $color-black;
+    flex-direction: column;
+    h1 {
+      text-align: center;
+    }
+    p {
+      color: $color-light-gray;
+      font-size: 20px;
+      text-align: center;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.loader {
+  display: flex; // make us of Flexbox
+  align-items: center; // does vertically center the desired content
+  justify-content: center; // horizontally centers single line items
+  text-align: center;
+  height: 100%;
+
+  p {
+    color: $color-light-black;
+    font-size: 100px;
+  }
+  
+  .spinner:after {
+    content: ' .';
+    animation: dots 1s steps(5, end) infinite;}
+  
+    @keyframes dots {
+      0%, 20% {
+        color: rgba(0,0,0,0);
+        text-shadow:
+          .25em 0 0 rgba(0,0,0,0),
+          .5em 0 0 rgba(0,0,0,0);
+        }
+      40% {
+        color: $color-light-black;
+        text-shadow:
+          .25em 0 0 rgba(0,0,0,0),
+          .5em 0 0 rgba(0,0,0,0)
+        }
+      60% {
+        text-shadow:
+          .25em 0 0 $color-light-black,
+          .5em 0 0 rgba(0,0,0,0);
+        }
+      80%, 100% {
+        text-shadow:
+          .25em 0 0 $color-light-black,
+          .5em 0 0 $color-light-black;
+        }
+      }
+}
